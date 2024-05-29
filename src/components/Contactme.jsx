@@ -22,7 +22,7 @@ function Contactme() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <motion.div className="rounded-lg overflow-hidden"
                 whileInView={{opacity:1, x:0}}
-               initial={{opacity:0,x:-400}} transition={{duration: 0.8, delay: 1.5}}>
+               initial={{opacity:0,x:-200}} transition={{duration: 0.8, delay: 1.5}}>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74842955027!2d72.41492903300148!3d23.020474101226686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1716822451028!5m2!1sen!2sin"
                         width="100%" height="480"  allowfullscreen="" loading="lazy"></iframe>
@@ -31,7 +31,7 @@ function Contactme() {
                     <div className="max-w-full mx-auto rounded-lg overflow-hidden">
                     <motion.form 
                 whileInView={{opacity:1, x:0}}
-               initial={{opacity:0,x:400}} transition={{duration: 0.8, delay: 1.5}}
+               initial={{opacity:0,x:200}} transition={{duration: 0.8, delay: 1.5}}
                onSubmit={handleSubmit} className="space-y-8">
                   <div>
                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">

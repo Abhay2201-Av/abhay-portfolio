@@ -16,13 +16,13 @@ function Experience() {
             <div key={index} className='mb-8 flex flex-wrap lg:flex-nowrap lg:justify-center'>
               <motion.div className='w-full lg:w-1/4'
               whileInView={{opacity:1, x:0}}
-               initial={{opacity:0,x:-400}} transition={{duration: 0.8, delay: 1.5}}
+               initial={{opacity:0,x:-200}} transition={{duration: 0.8, delay: 1.5}}
               >
                 <p className='mb-2 text-sm text-neutral-400'>{exp.year}</p>
               </motion.div>
               <motion.div 
               whileInView={{opacity:1, x:0}}
-               initial={{opacity:0,x:400}} transition={{duration: 0.8, delay: 1.5}}
+               initial={{opacity:0,x:200}} transition={{duration: 0.8, delay: 1.5}}
               className='w-full max-w-xl lg:w-3/4'>
                 <h6>
                   {exp.role} -{' '}

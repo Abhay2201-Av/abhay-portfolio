@@ -18,14 +18,14 @@ function About() {
          <div className='flex item-center justify-center'>
           <motion.img
           whileInView={{opacity:1, x:0}}
-               initial={{opacity:0,x:-400}} transition={{duration: 0.8, delay: 1.5}}
+               initial={{opacity:0,x:-200}} transition={{duration: 0.8, delay: 1.5}}
            className='size-3/5   rounded' src={Me} alt="" />
          </div>
       </div>
       <div className='flex justify-center lg:justify-start'>
       <motion.p
       whileInView={{opacity:1, x:0}}
-               initial={{opacity:0,x:400}} transition={{duration: 0.8, delay: 1.5}}
+               initial={{opacity:0,x:200}} transition={{duration: 0.8, delay: 1.5}}
        className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</motion.p>
       </div>
       </div>
