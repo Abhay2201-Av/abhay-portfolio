@@ -49,7 +49,7 @@ function Hero() {
                <motion.img
                whileInView={{opacity:1, x:0}}
                initial={{opacity:0,x:200}} transition={{duration: 0.8, delay: 1.5}}
-                src={Me1} alt=""  className="size-3/5  rounded sm:size-full"/>
+                src={Me1} alt=""  className="size-3/5  rounded "/>
              {/* <img src={Me1} alt="" /> */}
         </div>
       </div>
