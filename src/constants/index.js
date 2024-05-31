@@ -12,7 +12,8 @@ export const EXPERIENCES = [
     year: "2023 - 2024",
     role: "React Intern",
     company: "Paperbird Tech.",
-    description: `As a ReactJS intern with six months of experience, I have built dynamic web applications using React. My skills include creating reusable components, managing state with hooks, and integrating APIs. I have worked on projects like an e-commerce site and a restaurent management system. Proficient in Git for version control and responsive design, I am a quick learner and effective team player, ready to contribute to web development projects.`,
+    description: `During my internship, I focused on developing web applications using React.js. I collaborated with the team to create and optimize user interfaces, implemented responsive design principles, and integrated RESTful APIs to fetch and display data dynamically. This experience significantly enhanced my skills in JavaScript, React.js, and front-end development best practices.
+    , I am a quick learner and effective team player, ready to contribute to web development projects.`,
     technologies: ["Javascript", "React.js", "CSS", "HTML"],
   },
 ];
